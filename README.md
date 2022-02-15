@@ -8,6 +8,7 @@ This repository contains the a basic Solana program made using the Anchor Framew
 
 ## Table of Contents
 
+- [🎉 Deployed Programs](#-deployed-programs)
 - [🛠️ Getting Started](#%EF%B8%8F-getting-started)
   - [Solana CLI](#1-solana-cli)
   - [Anchor CLI](#2-anchor-cli)
@@ -16,6 +17,11 @@ This repository contains the a basic Solana program made using the Anchor Framew
 - [🚀 Deployment](#-deployment)
 - [⚗️ Testing](#%EF%B8%8F-testing)
 - [📜 License](#-license)
+
+### 🎉 Deployed Programs
+
+- [Devnet](https://solscan.io/account/448KahuLdmiQpbrdGziRuQ6Y3mYG3uKWCWzcV3U9UWz6?cluster=devnet)
+- [Testnet](https://solscan.io/account/448KahuLdmiQpbrdGziRuQ6Y3mYG3uKWCWzcV3U9UWz6?cluster=testnet)
 
 ### 🛠️ Getting Started
 
