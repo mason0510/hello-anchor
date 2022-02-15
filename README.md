@@ -1,18 +1,25 @@
-# Hello Anchor
+<div align="center">
+
+# ⚓︎ Hello Anchor
+
+</div>
 
 ## Table of Contents
 
-- Getting Started
-- Development
-- Deployment
-- Testing
-- License
+- 🛠️ Getting Started
+  - Solana CLI
+  - Anchor CLI
+  - Solana Wallet
+- 🏗️ Development
+- 🚀 Deployment
+- ⚗️ Testing
+- 📜 License
 
-### Getting Started
+### 🛠️ Getting Started
 
 This project assumes your local machine have Node and Cargo installed.
 
-1. Solana CLI
+#### 1. Solana CLI
 
 **MacOS & Linux**
 
@@ -26,13 +33,13 @@ sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 curl https://release.solana.com/v1.9.5/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs
 ```
 
-2. Anchor CLI
+#### 2. Anchor CLI
 
 ```sh
 npm i -g @project-serum/anchor-cli
 ```
 
-3. Solana Wallet
+#### 3. Solana Wallet
 
 For this tutorial, we're going to use a Filesystem wallet. This is sufficient for testing, but not recommended for production purpose.
 
@@ -40,7 +47,7 @@ For this tutorial, we're going to use a Filesystem wallet. This is sufficient fo
 solana-keygen new --no-outfile
 ```
 
-### Development
+### 🏗️ Development
 
 Open [`lib.rs`](https://github.com/YosephKS/hello-anchor/blob/main/programs/hello-anchor/src/lib.rs) and edit the file to your needs. After completing the program, compile it to produce IDL.
 
@@ -65,7 +72,7 @@ hello_anchor = "program-id"
 hello_anchor = "program-id"
 ```
 
-### Deployment
+### 🚀 Deployment
 
 To deploy the program to a chosen cluster,
 
@@ -75,7 +82,7 @@ anchor deploy --provider.cluster <cluster-name>
 
 where `cluster-name` could be `localhost`, `testnet`, `devnet`, and `mainnet`.
 
-### Testing
+### ⚗️ Testing
 
 Once the program is deployed, you can test it with the following command.
 
@@ -83,6 +90,6 @@ Once the program is deployed, you can test it with the following command.
 anchor test
 ```
 
-### License
+### 📜 License
 
 [GNU Affero General Public License v3.0](https://github.com/YosephKS/hello-anchor/blob/main/LICENSE.md)
