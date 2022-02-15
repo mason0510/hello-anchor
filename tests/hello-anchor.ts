@@ -1,6 +1,4 @@
-// const assert = require("assert");
 const anchor = require("@project-serum/anchor");
-// const { SystemProgram } = anchor.web3;
 
 describe("Hello Anchor!", () => {
   anchor.setProvider(anchor.Provider.local());
