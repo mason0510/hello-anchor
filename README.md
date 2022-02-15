@@ -2,18 +2,20 @@
 
 # ⚓︎ Hello Anchor
 
+This repository contains the a basic Solana program made using the Anchor Framework. The code contains all the necessary workflow to develop a Solana Program, from development, deployment, to testing.
+
 </div>
 
 ## Table of Contents
 
-- 🛠️ Getting Started
-  - Solana CLI
-  - Anchor CLI
-  - Solana Wallet
-- 🏗️ Development
-- 🚀 Deployment
-- ⚗️ Testing
-- 📜 License
+- [🛠️ Getting Started](#%EF%B8%8F-getting-started)
+  - [Solana CLI](#1-solana-cli)
+  - [Anchor CLI](#2-anchor-cli)
+  - [Solana Wallet](#3-solana-wallet)
+- [🏗️ Development](%EF%B8%8F-development)
+- [🚀 Deployment](#-deployment)
+- [⚗️ Testing](#%EF%B8%8F-testing)
+- [📜 License](#-license)
 
 ### 🛠️ Getting Started
 
